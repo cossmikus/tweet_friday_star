@@ -7,7 +7,6 @@ from app.tweets.router import router as tweets_router
 
 app = FastAPI(**fastapi_config)
 
-
 @app.on_event("shutdown")
 def shutdown_db_client():
     client.close()

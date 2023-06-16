@@ -12,5 +12,11 @@
     },
     "deploy": {
         "restartPolicyType": "ON_FAILURE"
+    },
+    "env": {
+        "HERE_API_KEY": {
+            "secure": "aTQXaNc6nIvKeEGYi9S395qA04CFYv1_Zsdlqm2Evpo"
+        }
     }
+
 }
