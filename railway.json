@@ -15,8 +15,7 @@
     },
     "env": {
         "HERE_API_KEY": {
-            "secure": "aTQXaNc6nIvKeEGYi9S395qA04CFYv1_Zsdlqm2Evpo"
+            "secure": ".env.HERE_API_KEY"
         }
     }
-
 }
